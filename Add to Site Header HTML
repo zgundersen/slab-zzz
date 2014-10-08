@@ -9,7 +9,7 @@
 //Call Slab
     $(function(){
        $(".header-container-wrapper .widget-type-menu").slab({
-           iconTop: -83,   //vertical offset
+           iconTop: 0,   //vertical offset
            iconRight: 0    //horizontal offset
        }); 
     });
