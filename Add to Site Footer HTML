@@ -1,0 +1,7 @@
+<!--Add to Site Footer HTML-->
+<!-- Slab Wrapper will be added just before the closing of ".header-container-wrapper" | Change this div to suite your needs -->
+
+
+
+
+<script>$('.header-container-wrapper').append("<div class='slab-wrapper'></div>");</script>
