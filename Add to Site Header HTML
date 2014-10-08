@@ -1,0 +1,23 @@
+<!--Add to the bottom of Site Header HTML in Content Settings-->
+
+
+
+<link href="http://cdn2.hubspot.net/hub/343150/file-1805019228-css/slab-zane.css" rel="stylesheet">
+<script src='{{ get_public_template_url("custom/page/js/slabz.js") }}'></script>
+<script>
+
+//Call Slab
+    $(function(){
+       $(".header-container-wrapper .widget-type-menu").slab({
+           iconTop: -83,   //vertical offset
+           iconRight: 0    //horizontal offset
+       }); 
+    });
+
+$(document).ready(function(){
+    $('#slab-trigger').click(function(){
+		$(this).toggleClass('open');
+});
+       
+});
+</script>
